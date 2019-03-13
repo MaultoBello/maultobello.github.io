@@ -26,3 +26,7 @@ animation: AnimationName 4s ease infinite;
     50%{background-position:67% 100%}
     100%{background-position:34% 0%}
 }
+
+p {
+	colour:red;
+}
