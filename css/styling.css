@@ -5,3 +5,9 @@ p {
 ul {
 	list-style-type: none;
 }
+
+/* add max and min widths */
+.profile {
+  border-radius: 50%;
+  width:25%;
+}
