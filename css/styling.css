@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
 ul {
 	list-style-type: none;
 }
@@ -8,19 +11,19 @@ ul {
   width:25%;
 }
 
-.row-eq-height > [class^=col] {
-  display: flex;
-  flex-direction: row;
+h1 {
+	font-weight:bold;
+	font-size: 50px;
 }
-
-
+	
 .bblock {
 	background-color: black;
 	color:white;
-	
+	font-family: 'Montserrat';
 }
 
 .wblock {
 	background-color: white;
 	color:black;
+	font-family: 'Montserrat';
 }
