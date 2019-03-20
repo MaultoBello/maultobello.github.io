@@ -1,11 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
-
-ul {
-	list-style-type: none;
+.logo {
+	width:100%;
+	min-width:200px;
+	max-width:867px;
 }
 
-/* add max and min widths */
+.sdg-icon {
+	min-width:200px;
+	width: 60%;
+}
+
 .profile {
   border-radius: 50%;
   width:25%;
@@ -31,6 +37,14 @@ h4 {
 	font-style:italic;
 }
 
+.wideview {
+		display:block;
+}
+
+.narrowview {
+	display:none;
+}
+
 @media screen and (max-width: 576px){	
 	.bsmall {
 		background-color: black;
@@ -40,4 +54,62 @@ h4 {
 		background-color: white;
 		color:black;
 	}
+	
+	.sdg-icon {
+		min-width:200px;
+		width: 80%;
+	}
+	
+	.wideview {
+		display:none;
+	}
+	
+	.narrowview {
+		display:block;
+	}
+}
+
+#poverty {
+	background-color: #e81f2d;
+}
+
+#poverty-text {
+	color:  #e81f2d;
+	font-family:'Fjalla One';
+}
+
+#hunger {
+	background-color: #d2a12b;
+}
+
+#hunger-text {
+	color:  #d2a12b;
+	font-family:'Fjalla One';
+}
+
+#health {
+	background-color: #2B9B4A;
+}
+
+#health-text {
+	color: #2B9B4A;
+	font-family:'Fjalla One';
+}
+
+#education {
+	background-color: #C42738;
+}
+
+#education-text {
+	color: #C42738;
+	font-family:'Fjalla One';
+}
+
+#equality {
+	background-color: #ED422B;
+}
+
+#equality-text {
+	color: #ED422B;
+	font-family:'Fjalla One';
 }
